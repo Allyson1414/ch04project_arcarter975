@@ -1,0 +1,35 @@
+/* Allyson Carter 2/28/2026*/
+
+body {
+    -ms-layout-grid: grid;
+}
+
+section id class image-flex {
+display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: horizontal;
+}
+
+/* Mobile */
+nav{
+min-width: 0px;
+}
+
+
+/* Tablet */
+nav {
+    min-width: 768px;
+}
+
+
+/* Full screen */
+nav {
+    min-width: 1200px;
+}
